@@ -1,0 +1,9 @@
+body {
+    height: 100vh;
+}
+
+#__nuxt {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}

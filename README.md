@@ -1,6 +1,6 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 + Tailwind Pet Project
 
-We recommend to look at the [documentation](https://v3.nuxtjs.org).
+Just a playground to try out some Nuxt 3 features.
 
 ## Setup
 
