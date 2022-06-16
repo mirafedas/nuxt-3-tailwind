@@ -145,7 +145,7 @@ server.listen(listenAddress, () => {
   });
 });
 
-const STATIC_ASSETS_BASE = "/_nuxt/Users/mirafedas/Desktop/nuxt-3-tailwind/dist" + "/" + "1651003753";
+const STATIC_ASSETS_BASE = "/_nuxt/Users/mirafedas/Desktop/nuxt-3-tailwind/dist" + "/" + "1655404393";
 const PAYLOAD_JS = "/payload.js";
 const getClientManifest = cachedImport(() => import('/Users/mirafedas/Desktop/nuxt-3-tailwind/.nuxt/dist/server/client.manifest.mjs'));
 const getSSRApp = cachedImport(() => import('/Users/mirafedas/Desktop/nuxt-3-tailwind/.nuxt/dist/server/server.mjs'));

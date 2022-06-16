@@ -1,7 +1,12 @@
 <template>
-  <TheHeader />
-  <main>mian</main>
-  <footer style="margin-top: auto">footer</footer>
+  <div class="relative flex flex-col" style="height: 100%">
+    <BurgerMenu />
+    <TheHeader />
+    <main>
+      <TheHero />
+    </main>
+    <TheFooter style="margin-top: auto"></TheFooter>
+  </div>
 </template>
 
 <script lang="ts" setup>

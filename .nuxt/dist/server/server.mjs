@@ -140,7 +140,10 @@ const $id_614de060 = (global, exports, importMeta, ssrImport, ssrDynamicImport, 
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue ($id_14c8b574)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue ($id_bc2d74a1)
 // - /node_modules/nuxt3/dist/app/components/nuxt-error-page.vue ($id_f10a5dcc)
+// - /components/BurgerMenu.vue ($id_8965d818)
 // - /components/TheHeader.vue ($id_d18d7003)
+// - /components/TheHero.vue ($id_79789ec9)
+// - /components/TheFooter.vue ($id_cdfd5170)
 // - /app.vue ($id_2b46e842)
 // Dependencies: 
 
@@ -1133,6 +1136,8 @@ Object.defineProperty(__vite_ssr_exports__, "defineNuxtLink", { enumerable: true
 // Parents: 
 // - /node_modules/nuxt3/dist/app/components/index.mjs ($id_dcef81fa)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue ($id_b90d4d0f)
+// - /components/BurgerMenu.vue ($id_8965d818)
+// - /components/TheHeader.vue ($id_d18d7003)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/nuxt3/node_modules/ufo/dist/index.mjs ($id_2ce1cf4d)
@@ -1351,7 +1356,7 @@ const __vite_ssr_import_0__ = await __vite_ssr_import__("/assets/css/tailwind.cs
 
 // --------------------
 const $id_f75548e1 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = "/*! tailwindcss v3.0.23 | MIT License | https://tailwindcss.com*/*,:after,:before{border:0 solid #e5e7eb;box-sizing:border-box}:after,:before{--tw-content:\"\"}html{-webkit-text-size-adjust:100%;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\";line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4}body{line-height:inherit;margin:0}hr{border-top-width:1px;color:inherit;height:0}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{border-collapse:collapse;border-color:inherit;text-indent:0}button,input,optgroup,select,textarea{color:inherit;font-family:inherit;font-size:100%;line-height:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{color:#9ca3af;opacity:1}input:-ms-input-placeholder,textarea:-ms-input-placeholder{color:#9ca3af;opacity:1}input::placeholder,textarea::placeholder{color:#9ca3af;opacity:1}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{height:auto;max-width:100%}[hidden]{display:none}*,:after,:before{--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.mr-2{margin-right:.5rem}.mr-6{margin-right:1.5rem}.flex{display:flex}.flex-row{flex-direction:row}.flex-col{flex-direction:column}.items-center{align-items:center}.justify-between{justify-content:space-between}.border-l-2{border-left-width:2px}.border-solid{border-style:solid}.border-gray-400{--tw-border-opacity:1;border-color:rgb(156 163 175/var(--tw-border-opacity))}.border-black{--tw-border-opacity:1;border-color:rgb(0 0 0/var(--tw-border-opacity))}.bg-slate-900{--tw-bg-opacity:1;background-color:rgb(15 23 42/var(--tw-bg-opacity))}.bg-gray-900{--tw-bg-opacity:1;background-color:rgb(17 24 39/var(--tw-bg-opacity))}.bg-zinc-700{--tw-bg-opacity:1;background-color:rgb(63 63 70/var(--tw-bg-opacity))}.p-2{padding:.5rem}.p-5{padding:1.25rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.px-10{padding-left:2.5rem;padding-right:2.5rem}.px-96{padding-left:24rem;padding-right:24rem}.px-52{padding-left:13rem;padding-right:13rem}.px-28{padding-left:7rem;padding-right:7rem}.py-2{padding-bottom:.5rem;padding-top:.5rem}.pl-2{padding-left:.5rem}.text-sm{font-size:.875rem;line-height:1.25rem}.text-xs{font-size:.75rem;line-height:1rem}.text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}.text-slate-500{--tw-text-opacity:1;color:rgb(100 116 139/var(--tw-text-opacity))}.text-slate-300{--tw-text-opacity:1;color:rgb(203 213 225/var(--tw-text-opacity))}";
+__vite_ssr_exports__.default = "/*! tailwindcss v3.0.23 | MIT License | https://tailwindcss.com*/*,:after,:before{border:0 solid #e5e7eb;box-sizing:border-box}:after,:before{--tw-content:\"\"}html{-webkit-text-size-adjust:100%;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\";line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4}body{line-height:inherit;margin:0}hr{border-top-width:1px;color:inherit;height:0}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{border-collapse:collapse;border-color:inherit;text-indent:0}button,input,optgroup,select,textarea{color:inherit;font-family:inherit;font-size:100%;line-height:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{color:#9ca3af;opacity:1}input:-ms-input-placeholder,textarea:-ms-input-placeholder{color:#9ca3af;opacity:1}input::placeholder,textarea::placeholder{color:#9ca3af;opacity:1}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{height:auto;max-width:100%}[hidden]{display:none}*,:after,:before{--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.container{width:100%}@media (min-width:640px){.container{max-width:640px}}@media (min-width:768px){.container{max-width:768px}}@media (min-width:1024px){.container{max-width:1024px}}@media (min-width:1280px){.container{max-width:1280px}}@media (min-width:1536px){.container{max-width:1536px}}.absolute{position:absolute}.relative{position:relative}.mx-auto{margin-left:auto;margin-right:auto}.mb-4{margin-bottom:1rem}.mb-5{margin-bottom:1.25rem}.mb-6{margin-bottom:1.5rem}.mr-2{margin-right:.5rem}.ml-3{margin-left:.75rem}.mt-4{margin-top:1rem}.ml-1{margin-left:.25rem}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.inline-flex{display:inline-flex}.hidden{display:none}.h-\\[50px\\]{height:50px}.h-1{height:.25rem}.h-screen{height:100vh}.h-8{height:2rem}.h-10{height:2.5rem}.h-5{height:1.25rem}.w-\\[50px\\]{width:50px}.w-7{width:1.75rem}.w-screen{width:100vw}.w-full{width:100%}.w-8{width:2rem}.w-10{width:2.5rem}.w-5{width:1.25rem}.flex-col{flex-direction:column}.items-center{align-items:center}.justify-end{justify-content:flex-end}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.space-y-1>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(.25rem*var(--tw-space-y-reverse));margin-top:calc(.25rem*(1 - var(--tw-space-y-reverse)))}.rounded-full{border-radius:9999px}.bg-gray-600{--tw-bg-opacity:1;background-color:rgb(75 85 99/var(--tw-bg-opacity))}.bg-cyan-300{--tw-bg-opacity:1;background-color:rgb(103 232 249/var(--tw-bg-opacity))}.bg-indigo-500{--tw-bg-opacity:1;background-color:rgb(99 102 241/var(--tw-bg-opacity))}.bg-green-600{--tw-bg-opacity:1;background-color:rgb(22 163 74/var(--tw-bg-opacity))}.bg-green-500{--tw-bg-opacity:1;background-color:rgb(34 197 94/var(--tw-bg-opacity))}.bg-green-400{--tw-bg-opacity:1;background-color:rgb(74 222 128/var(--tw-bg-opacity))}.bg-emerald-600{--tw-bg-opacity:1;background-color:rgb(5 150 105/var(--tw-bg-opacity))}.bg-green-700{--tw-bg-opacity:1;background-color:rgb(21 128 61/var(--tw-bg-opacity))}.p-9{padding:2.25rem}.p-2{padding:.5rem}.px-4{padding-left:1rem;padding-right:1rem}.py-2{padding-bottom:.5rem;padding-top:.5rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.py-8{padding-bottom:2rem;padding-top:2rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-sm{font-size:.875rem;line-height:1.25rem}.font-medium{font-weight:500}.text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}.text-red-500{--tw-text-opacity:1;color:rgb(239 68 68/var(--tw-text-opacity))}.text-black{--tw-text-opacity:1;color:rgb(0 0 0/var(--tw-text-opacity))}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99/var(--tw-text-opacity))}.text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39/var(--tw-text-opacity))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128/var(--tw-text-opacity))}@media (min-width:640px){.sm\\:ml-4{margin-left:1rem}.sm\\:mt-0{margin-top:0}.sm\\:ml-auto{margin-left:auto}.sm\\:flex{display:flex}.sm\\:hidden{display:none}.sm\\:flex-row{flex-direction:row}.sm\\:justify-start{justify-content:flex-start}.sm\\:border-l-2{border-left-width:2px}.sm\\:border-gray-200{--tw-border-opacity:1;border-color:rgb(229 231 235/var(--tw-border-opacity))}.sm\\:py-2{padding-bottom:.5rem;padding-top:.5rem}.sm\\:pl-4{padding-left:1rem}}@media (min-width:768px){.md\\:justify-start{justify-content:flex-start}}";
 }
 
 
@@ -2697,7 +2702,10 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_m
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue ($id_bc2d74a1)
 // - /node_modules/nuxt3/dist/app/components/nuxt-error-page.vue ($id_f10a5dcc)
 // - /node_modules/nuxt3/dist/app/components/nuxt-root.vue ($id_f8564e04)
+// - /components/BurgerMenu.vue ($id_8965d818)
 // - /components/TheHeader.vue ($id_d18d7003)
+// - /components/TheHero.vue ($id_79789ec9)
+// - /components/TheFooter.vue ($id_cdfd5170)
 // - /app.vue ($id_2b46e842)
 // Dependencies: 
 
@@ -2725,7 +2733,10 @@ __vite_ssr_exports__.default = ".bg-white[data-v-573335c0]{--tw-bg-opacity:1;bac
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue ($id_bc2d74a1)
 // - /node_modules/nuxt3/dist/app/components/nuxt-error-page.vue ($id_f10a5dcc)
 // - /node_modules/nuxt3/dist/app/components/nuxt-root.vue ($id_f8564e04)
+// - /components/BurgerMenu.vue ($id_8965d818)
 // - /components/TheHeader.vue ($id_d18d7003)
+// - /components/TheHero.vue ($id_79789ec9)
+// - /components/TheFooter.vue ($id_cdfd5170)
 // - /app.vue ($id_2b46e842)
 // Dependencies: 
 
@@ -2976,20 +2987,29 @@ Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, confi
 // Parents: 
 // - /@id/__x00__virtual:/Users/mirafedas/Desktop/nuxt-3-tailwind/.nuxt/app-component.mjs ($id_4f8e9468)
 // Dependencies: 
+// - /components/BurgerMenu.vue ($id_8965d818)
 // - /components/TheHeader.vue ($id_d18d7003)
+// - /components/TheHero.vue ($id_79789ec9)
+// - /components/TheFooter.vue ($id_cdfd5170)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /assets/css/index.css ($id_3f0c2564)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /@id/plugin-vue:export-helper ($id_bbb863c1)
 // --------------------
 const $id_2b46e842 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/TheHeader.vue");
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/BurgerMenu.vue");
 
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/components/TheHeader.vue");
 
-const __vite_ssr_import_2__ = await __vite_ssr_import__("/assets/css/index.css");
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/components/TheHero.vue");
 
-const _sfc_main = /* @__PURE__ */ __vite_ssr_import_1__.defineComponent({
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/components/TheFooter.vue");
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/assets/css/index.css");
+
+const _sfc_main = /* @__PURE__ */ __vite_ssr_import_4__.defineComponent({
   setup(__props, { expose }) {
     expose();
     const __returned__ = {};
@@ -2997,27 +3017,202 @@ const _sfc_main = /* @__PURE__ */ __vite_ssr_import_1__.defineComponent({
     return __returned__;
   }
 });
-const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+const __vite_ssr_import_7__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  const _component_TheHeader = __vite_ssr_import_0__.default;
-  _push(`<!--[-->`);
-  _push(__vite_ssr_import_4__.ssrRenderComponent(_component_TheHeader, null, null, _parent));
-  _push(`<main>mian</main><footer style="${__vite_ssr_import_4__.ssrRenderStyle({ "margin-top": "auto" })}">footer</footer><!--]-->`);
+  const _component_BurgerMenu = __vite_ssr_import_0__.default;
+  const _component_TheHeader = __vite_ssr_import_1__.default;
+  const _component_TheHero = __vite_ssr_import_2__.default;
+  const _component_TheFooter = __vite_ssr_import_3__.default;
+  _push(`<div${__vite_ssr_import_7__.ssrRenderAttrs(__vite_ssr_import_6__.mergeProps({
+    class: "relative flex flex-col",
+    style: { "height": "100%" }
+  }, _attrs))}>`);
+  _push(__vite_ssr_import_7__.ssrRenderComponent(_component_BurgerMenu, null, null, _parent));
+  _push(__vite_ssr_import_7__.ssrRenderComponent(_component_TheHeader, null, null, _parent));
+  _push(`<main>`);
+  _push(__vite_ssr_import_7__.ssrRenderComponent(_component_TheHero, null, null, _parent));
+  _push(`</main>`);
+  _push(__vite_ssr_import_7__.ssrRenderComponent(_component_TheFooter, { style: { "margin-top": "auto" } }, null, _parent));
+  _push(`</div>`);
 }
-const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_8__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 const _sfc_setup = _sfc_main.setup;
 _sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_5__.useSSRContext();
+  const ssrContext = __vite_ssr_import_8__.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("app.vue");
   return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
 };
-const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+const __vite_ssr_import_9__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_6__.default(_sfc_main, [["ssrRender", _sfc_ssrRender], ["__file", "/Users/mirafedas/Desktop/nuxt-3-tailwind/app.vue"]]);
+__vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_9__.default(_sfc_main, [["ssrRender", _sfc_ssrRender], ["__file", "/Users/mirafedas/Desktop/nuxt-3-tailwind/app.vue"]]);
+;
+}
+
+
+// --------------------
+// Request: /components/BurgerMenu.vue
+// Parents: 
+// - /app.vue ($id_2b46e842)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/nuxt3/dist/app/components/nuxt-link.mjs ($id_3a707821)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_8965d818 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt3/dist/app/components/nuxt-link.mjs");
+
+const _sfc_main = __vite_ssr_import_0__.defineComponent({
+  setup() {
+  },
+  data() {
+    return {
+      isMenuOpen: false
+    };
+  },
+  methods: {
+    toggleMenu() {
+      this.isMenuOpen = !this.isMenuOpen;
+    }
+  }
+});
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  const _component_NuxtLink = __vite_ssr_import_1__.default;
+  _push(`<nav${__vite_ssr_import_3__.ssrRenderAttrs(__vite_ssr_import_2__.mergeProps({ class: "sm:hidden flex flex-col absolute w-full" }, _attrs))}><div class="flex justify-end w-full"><button class="flex flex-col space-y-1 w-[50px] h-[50px] justify-center items-center">`);
+  if (!_ctx.isMenuOpen) {
+    _push(`<div class="w-7 h-1 bg-gray-600"></div>`);
+  } else {
+    _push(`<!---->`);
+  }
+  if (!_ctx.isMenuOpen) {
+    _push(`<div class="w-7 h-1 bg-gray-600"></div>`);
+  } else {
+    _push(`<!---->`);
+  }
+  if (!_ctx.isMenuOpen) {
+    _push(`<div class="w-7 h-1 bg-gray-600"></div>`);
+  } else {
+    _push(`<svg class="h-8 w-8 gray-600" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"></path><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>`);
+  }
+  _push(`</button></div>`);
+  if (_ctx.isMenuOpen) {
+    _push(`<ul class="w-screen h-screen bg-green-700 flex flex-col items-center p-9"><li class="mb-6">`);
+    _push(__vite_ssr_import_3__.ssrRenderComponent(_component_NuxtLink, { to: "/work" }, {
+      default: __vite_ssr_import_2__.withCtx((_, _push2, _parent2, _scopeId) => {
+        if (_push2) {
+          _push2(`Our work`);
+        } else {
+          return [
+            __vite_ssr_import_2__.createTextVNode("Our work")
+          ];
+        }
+      }),
+      _: 1
+    }, _parent));
+    _push(`</li><li class="mb-6">`);
+    _push(__vite_ssr_import_3__.ssrRenderComponent(_component_NuxtLink, { to: "/about" }, {
+      default: __vite_ssr_import_2__.withCtx((_, _push2, _parent2, _scopeId) => {
+        if (_push2) {
+          _push2(`About`);
+        } else {
+          return [
+            __vite_ssr_import_2__.createTextVNode("About")
+          ];
+        }
+      }),
+      _: 1
+    }, _parent));
+    _push(`</li><li class="mb-6">`);
+    _push(__vite_ssr_import_3__.ssrRenderComponent(_component_NuxtLink, { to: "/resources" }, {
+      default: __vite_ssr_import_2__.withCtx((_, _push2, _parent2, _scopeId) => {
+        if (_push2) {
+          _push2(`Resources`);
+        } else {
+          return [
+            __vite_ssr_import_2__.createTextVNode("Resources")
+          ];
+        }
+      }),
+      _: 1
+    }, _parent));
+    _push(`</li><li class="mb-6">`);
+    _push(__vite_ssr_import_3__.ssrRenderComponent(_component_NuxtLink, { to: "/blog" }, {
+      default: __vite_ssr_import_2__.withCtx((_, _push2, _parent2, _scopeId) => {
+        if (_push2) {
+          _push2(`Blog`);
+        } else {
+          return [
+            __vite_ssr_import_2__.createTextVNode("Blog")
+          ];
+        }
+      }),
+      _: 1
+    }, _parent));
+    _push(`</li><li class="mb-6">`);
+    _push(__vite_ssr_import_3__.ssrRenderComponent(_component_NuxtLink, { to: "/get-involved" }, {
+      default: __vite_ssr_import_2__.withCtx((_, _push2, _parent2, _scopeId) => {
+        if (_push2) {
+          _push2(`Get involved`);
+        } else {
+          return [
+            __vite_ssr_import_2__.createTextVNode("Get involved")
+          ];
+        }
+      }),
+      _: 1
+    }, _parent));
+    _push(`</li><li class="mb-6">`);
+    _push(__vite_ssr_import_3__.ssrRenderComponent(_component_NuxtLink, { to: "/contact" }, {
+      default: __vite_ssr_import_2__.withCtx((_, _push2, _parent2, _scopeId) => {
+        if (_push2) {
+          _push2(`Contact`);
+        } else {
+          return [
+            __vite_ssr_import_2__.createTextVNode("Contact")
+          ];
+        }
+      }),
+      _: 1
+    }, _parent));
+    _push(`</li><li class="mb-6">`);
+    _push(__vite_ssr_import_3__.ssrRenderComponent(_component_NuxtLink, { to: "/donate" }, {
+      default: __vite_ssr_import_2__.withCtx((_, _push2, _parent2, _scopeId) => {
+        if (_push2) {
+          _push2(`Donate`);
+        } else {
+          return [
+            __vite_ssr_import_2__.createTextVNode("Donate")
+          ];
+        }
+      }),
+      _: 1
+    }, _parent));
+    _push(`</li></ul>`);
+  } else {
+    _push(`<!---->`);
+  }
+  _push(`</nav>`);
+}
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup;
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_4__.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/BurgerMenu.vue");
+  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
+};
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_5__.default(_sfc_main, [["ssrRender", _sfc_ssrRender], ["__file", "/Users/mirafedas/Desktop/nuxt-3-tailwind/components/BurgerMenu.vue"]]);
 ;
 }
 
@@ -3027,11 +3222,142 @@ __vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_6__.default(_sf
 // Parents: 
 // - /app.vue ($id_2b46e842)
 // Dependencies: 
+// - /node_modules/nuxt3/dist/app/components/nuxt-link.mjs ($id_3a707821)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /@id/plugin-vue:export-helper ($id_bbb863c1)
 // --------------------
 const $id_d18d7003 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt3/dist/app/components/nuxt-link.mjs");
+
+const _sfc_main = {}
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+  const _component_NuxtLink = __vite_ssr_import_0__.default
+
+  _push(`<header${__vite_ssr_import_2__.ssrRenderAttrs(__vite_ssr_import_1__.mergeProps({ class: "flex items-center justify-between px-4 py-2 bg-green-700" }, _attrs))}><div class="flex items-center"><a href="/" class="inline-block mr-2"><img class="block" width="40" height="40" src="https://images.vectorhq.com/images/previews/a2e/food-not-bombs-logo-142141.png" alt="a hand holding a carrot"></a><p>Food Not Bombs Wrocław</p></div><ul class="hidden sm:flex items-center justify-between"><li class="mr-2">`)
+  _push(__vite_ssr_import_2__.ssrRenderComponent(_component_NuxtLink, { to: "/work" }, {
+    default: __vite_ssr_import_1__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(`Our work`)
+      } else {
+        return [
+          __vite_ssr_import_1__.createTextVNode("Our work")
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+  _push(`</li><li class="mr-2">`)
+  _push(__vite_ssr_import_2__.ssrRenderComponent(_component_NuxtLink, { to: "/about" }, {
+    default: __vite_ssr_import_1__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(`About`)
+      } else {
+        return [
+          __vite_ssr_import_1__.createTextVNode("About")
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+  _push(`</li><li class="mr-2">`)
+  _push(__vite_ssr_import_2__.ssrRenderComponent(_component_NuxtLink, { to: "/resources" }, {
+    default: __vite_ssr_import_1__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(`Resources`)
+      } else {
+        return [
+          __vite_ssr_import_1__.createTextVNode("Resources")
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+  _push(`</li><li class="mr-2">`)
+  _push(__vite_ssr_import_2__.ssrRenderComponent(_component_NuxtLink, { to: "/blog" }, {
+    default: __vite_ssr_import_1__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(`Blog`)
+      } else {
+        return [
+          __vite_ssr_import_1__.createTextVNode("Blog")
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+  _push(`</li><li class="mr-2">`)
+  _push(__vite_ssr_import_2__.ssrRenderComponent(_component_NuxtLink, { to: "/get-involved" }, {
+    default: __vite_ssr_import_1__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(`Get involved`)
+      } else {
+        return [
+          __vite_ssr_import_1__.createTextVNode("Get involved")
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+  _push(`</li><li class="mr-2">`)
+  _push(__vite_ssr_import_2__.ssrRenderComponent(_component_NuxtLink, { to: "/contact" }, {
+    default: __vite_ssr_import_1__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(`Contact`)
+      } else {
+        return [
+          __vite_ssr_import_1__.createTextVNode("Contact")
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+  _push(`</li><li>`)
+  _push(__vite_ssr_import_2__.ssrRenderComponent(_component_NuxtLink, { to: "/donate" }, {
+    default: __vite_ssr_import_1__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(`Donate`)
+      } else {
+        return [
+          __vite_ssr_import_1__.createTextVNode("Donate")
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+  _push(`</li></ul></header>`)
+}
+
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_3__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/TheHeader.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/mirafedas/Desktop/nuxt-3-tailwind/components/TheHeader.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/TheHero.vue
+// Parents: 
+// - /app.vue ($id_2b46e842)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_79789ec9 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const _sfc_main = {}
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
@@ -3039,7 +3365,10 @@ const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/serve
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
-  _push(`<header${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "flex flex-col text-sm" }, _attrs))}><div class="flex flex-row justify-between px-28 py-2 bg-zinc-700 text-slate-300"><ul class="flex"><li class="flex items-center mr-2"><i class="material-icons mr-2 text-sm">mail_outline</i><a href="mailto:kontakt@sklepjogina.pl">kontakt@sklepjogina.pl</a></li><li class="flex items-center border-l-2 border-solid border-black pl-2"><i class="material-icons mr-2 text-sm">chat_bubble_outline</i><a href="tel:785036025">+48 789 729 739</a></li></ul><ul class="flex"><li class="flex items-center mr-6"><i class="material-icons mr-2 text-sm">lock_outline</i><a href="/pl/reg" title="Zarejestruj się" class="register"><span>Zarejestruj się</span></a></li><li class="flex items-center"><i class="material-icons mr-2 text-sm">person_outline</i><a href="/pl/login" title="Zaloguj się" class="login"><span>Zaloguj się</span></a></li></ul></div><div><a href="/"><img src="https://sklepjogina.pl/skins/store_user/store_51530cb51aa33584410334a776d96a81_3/images/logo.png" alt="logo sklepu"></a></div></header>`)
+  _push(`<img${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({
+    src: "https://scontent.fiev7-4.fna.fbcdn.net/v/t39.30808-6/273769726_10158360632141696_317987306012276012_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e3f864&_nc_ohc=NwQdtUMBCqEAX-ZJ187&_nc_ht=scontent.fiev7-4.fna&oh=00_AT8G1WJqanfMGaG-XagT4Mzak8JvwFU0FHrRxIJBRRAl3w&oe=62B150CB",
+    alt: "FNB Wroclaw sobota gotowanie 10:00 Centrum Reanimacji Kultury"
+  }, _attrs))}>`)
 }
 
 
@@ -3048,12 +3377,47 @@ const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/
 const _sfc_setup = _sfc_main.setup
 _sfc_main.setup = (props, ctx) => {
   const ssrContext = __vite_ssr_import_2__.useSSRContext()
-  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/TheHeader.vue")
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/TheHero.vue")
   return _sfc_setup ? _sfc_setup(props, ctx) : undefined
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/mirafedas/Desktop/nuxt-3-tailwind/components/TheHeader.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/mirafedas/Desktop/nuxt-3-tailwind/components/TheHero.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/TheFooter.vue
+// Parents: 
+// - /app.vue ($id_2b46e842)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_cdfd5170 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const _sfc_main = {}
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+  _push(`<footer${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "text-gray-600 body-font" }, _attrs))}><div class="px-5 py-8 mx-auto flex items-center sm:flex-row flex-col" bis_skin_checked="1"><a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"><img class="block" width="40" height="40" src="https://images.vectorhq.com/images/previews/a2e/food-not-bombs-logo-142141.png" alt="a hand holding a carrot"><span class="ml-3 text-xl">Food Not Bombs</span></a><p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4"> © 2022 Wrocław — <a href="https://www.facebook.com/fnbwro/" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">fnbwro</a></p><span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start"><a class="text-gray-500"><svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path></svg></a><a class="ml-3 text-gray-500"><svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path></svg></a><a class="ml-3 text-gray-500"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path></svg></a><a class="ml-3 text-gray-500"><svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24"><path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path><circle cx="4" cy="4" r="2" stroke="none"></circle></svg></a></span></div></footer>`)
+}
+
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_2__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/TheFooter.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/mirafedas/Desktop/nuxt-3-tailwind/components/TheFooter.vue"]]);
 }
 
 
@@ -3065,7 +3429,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_m
 
 // --------------------
 const $id_3f0c2564 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = "a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{border:0;font-size:100%;font:inherit;margin:0;padding:0;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:\"\";content:none}table{border-spacing:0}\n\n/*! tailwindcss v3.0.23 | MIT License | https://tailwindcss.com*/*,:after,:before{border:0 solid #e5e7eb;box-sizing:border-box}:after,:before{--tw-content:\"\"}html{-webkit-text-size-adjust:100%;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\";line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4}body{line-height:inherit;margin:0}hr{border-top-width:1px;color:inherit;height:0}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{border-collapse:collapse;border-color:inherit;text-indent:0}button,input,optgroup,select,textarea{color:inherit;font-family:inherit;font-size:100%;line-height:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{color:#9ca3af;opacity:1}input:-ms-input-placeholder,textarea:-ms-input-placeholder{color:#9ca3af;opacity:1}input::placeholder,textarea::placeholder{color:#9ca3af;opacity:1}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{height:auto;max-width:100%}[hidden]{display:none}*,:after,:before{--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.mr-2{margin-right:.5rem}.mr-6{margin-right:1.5rem}.flex{display:flex}.flex-row{flex-direction:row}.flex-col{flex-direction:column}.items-center{align-items:center}.justify-between{justify-content:space-between}.border-l-2{border-left-width:2px}.border-solid{border-style:solid}.border-gray-400{--tw-border-opacity:1;border-color:rgb(156 163 175/var(--tw-border-opacity))}.border-black{--tw-border-opacity:1;border-color:rgb(0 0 0/var(--tw-border-opacity))}.bg-slate-900{--tw-bg-opacity:1;background-color:rgb(15 23 42/var(--tw-bg-opacity))}.bg-gray-900{--tw-bg-opacity:1;background-color:rgb(17 24 39/var(--tw-bg-opacity))}.bg-zinc-700{--tw-bg-opacity:1;background-color:rgb(63 63 70/var(--tw-bg-opacity))}.p-2{padding:.5rem}.p-5{padding:1.25rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.px-10{padding-left:2.5rem;padding-right:2.5rem}.px-96{padding-left:24rem;padding-right:24rem}.px-52{padding-left:13rem;padding-right:13rem}.px-28{padding-left:7rem;padding-right:7rem}.py-2{padding-bottom:.5rem;padding-top:.5rem}.pl-2{padding-left:.5rem}.text-sm{font-size:.875rem;line-height:1.25rem}.text-xs{font-size:.75rem;line-height:1rem}.text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}.text-slate-500{--tw-text-opacity:1;color:rgb(100 116 139/var(--tw-text-opacity))}.text-slate-300{--tw-text-opacity:1;color:rgb(203 213 225/var(--tw-text-opacity))}body{height:100vh}#__nuxt{display:flex;flex-direction:column;height:100%}";
+__vite_ssr_exports__.default = "a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{border:0;font-size:100%;font:inherit;margin:0;padding:0;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:\"\";content:none}table{border-spacing:0}\n\n/*! tailwindcss v3.0.23 | MIT License | https://tailwindcss.com*/*,:after,:before{border:0 solid #e5e7eb;box-sizing:border-box}:after,:before{--tw-content:\"\"}html{-webkit-text-size-adjust:100%;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\";line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4}body{line-height:inherit;margin:0}hr{border-top-width:1px;color:inherit;height:0}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{border-collapse:collapse;border-color:inherit;text-indent:0}button,input,optgroup,select,textarea{color:inherit;font-family:inherit;font-size:100%;line-height:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{color:#9ca3af;opacity:1}input:-ms-input-placeholder,textarea:-ms-input-placeholder{color:#9ca3af;opacity:1}input::placeholder,textarea::placeholder{color:#9ca3af;opacity:1}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{height:auto;max-width:100%}[hidden]{display:none}*,:after,:before{--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.container{width:100%}@media (min-width:640px){.container{max-width:640px}}@media (min-width:768px){.container{max-width:768px}}@media (min-width:1024px){.container{max-width:1024px}}@media (min-width:1280px){.container{max-width:1280px}}@media (min-width:1536px){.container{max-width:1536px}}.absolute{position:absolute}.relative{position:relative}.mx-auto{margin-left:auto;margin-right:auto}.mb-4{margin-bottom:1rem}.mb-5{margin-bottom:1.25rem}.mb-6{margin-bottom:1.5rem}.mr-2{margin-right:.5rem}.ml-3{margin-left:.75rem}.mt-4{margin-top:1rem}.ml-1{margin-left:.25rem}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.inline-flex{display:inline-flex}.hidden{display:none}.h-\\[50px\\]{height:50px}.h-1{height:.25rem}.h-screen{height:100vh}.h-8{height:2rem}.h-10{height:2.5rem}.h-5{height:1.25rem}.w-\\[50px\\]{width:50px}.w-7{width:1.75rem}.w-screen{width:100vw}.w-full{width:100%}.w-8{width:2rem}.w-10{width:2.5rem}.w-5{width:1.25rem}.flex-col{flex-direction:column}.items-center{align-items:center}.justify-end{justify-content:flex-end}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.space-y-1>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(.25rem*var(--tw-space-y-reverse));margin-top:calc(.25rem*(1 - var(--tw-space-y-reverse)))}.rounded-full{border-radius:9999px}.bg-gray-600{--tw-bg-opacity:1;background-color:rgb(75 85 99/var(--tw-bg-opacity))}.bg-cyan-300{--tw-bg-opacity:1;background-color:rgb(103 232 249/var(--tw-bg-opacity))}.bg-indigo-500{--tw-bg-opacity:1;background-color:rgb(99 102 241/var(--tw-bg-opacity))}.bg-green-600{--tw-bg-opacity:1;background-color:rgb(22 163 74/var(--tw-bg-opacity))}.bg-green-500{--tw-bg-opacity:1;background-color:rgb(34 197 94/var(--tw-bg-opacity))}.bg-green-400{--tw-bg-opacity:1;background-color:rgb(74 222 128/var(--tw-bg-opacity))}.bg-emerald-600{--tw-bg-opacity:1;background-color:rgb(5 150 105/var(--tw-bg-opacity))}.bg-green-700{--tw-bg-opacity:1;background-color:rgb(21 128 61/var(--tw-bg-opacity))}.p-9{padding:2.25rem}.p-2{padding:.5rem}.px-4{padding-left:1rem;padding-right:1rem}.py-2{padding-bottom:.5rem;padding-top:.5rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.py-8{padding-bottom:2rem;padding-top:2rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-sm{font-size:.875rem;line-height:1.25rem}.font-medium{font-weight:500}.text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}.text-red-500{--tw-text-opacity:1;color:rgb(239 68 68/var(--tw-text-opacity))}.text-black{--tw-text-opacity:1;color:rgb(0 0 0/var(--tw-text-opacity))}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99/var(--tw-text-opacity))}.text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39/var(--tw-text-opacity))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128/var(--tw-text-opacity))}body{height:100vh}#__nuxt{display:flex;flex-direction:column;height:100%}@media (min-width:640px){.sm\\:ml-4{margin-left:1rem}.sm\\:mt-0{margin-top:0}.sm\\:ml-auto{margin-left:auto}.sm\\:flex{display:flex}.sm\\:hidden{display:none}.sm\\:flex-row{flex-direction:row}.sm\\:justify-start{justify-content:flex-start}.sm\\:border-l-2{border-left-width:2px}.sm\\:border-gray-200{--tw-border-opacity:1;border-color:rgb(229 231 235/var(--tw-border-opacity))}.sm\\:py-2{padding-bottom:.5rem;padding-top:.5rem}.sm\\:pl-4{padding-left:1rem}}@media (min-width:768px){.md\\:justify-start{justify-content:flex-start}}";
 }
 
 
@@ -3128,7 +3492,10 @@ const __modules__ = {
   "/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue?vue&type=style&index=0&scoped=true&lang.css": $id_2691164c,
   "/@id/__x00__virtual:/Users/mirafedas/Desktop/nuxt-3-tailwind/.nuxt/app-component.mjs": $id_4f8e9468,
   "/app.vue": $id_2b46e842,
+  "/components/BurgerMenu.vue": $id_8965d818,
   "/components/TheHeader.vue": $id_d18d7003,
+  "/components/TheHero.vue": $id_79789ec9,
+  "/components/TheFooter.vue": $id_cdfd5170,
   "/assets/css/index.css": $id_3f0c2564
 }
 
